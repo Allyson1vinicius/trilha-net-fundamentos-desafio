@@ -11,6 +11,8 @@ Console.WriteLine("Olá, seja bem vindo ao AV estacionamentos!\n" +
 precoInicial = Convert.ToDecimal(Console.ReadLine());
 
 Console.WriteLine("Agora digite o preço por hora:");
+Console.WriteLine("Tendo em vista que valor para moto é de R$2,00 \n" +
+                                             "e valor para carro é de R$5,00.");
 precoPorHora = Convert.ToDecimal(Console.ReadLine());
 
 // Instancia a classe Estacionamento, já com os valores obtidos anteriormente
